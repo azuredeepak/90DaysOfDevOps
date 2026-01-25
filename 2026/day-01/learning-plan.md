@@ -41,3 +41,7 @@ Ping google
 Storage /ramusage -   > free ,  > df 
 
 Ps aux | grep <pattern> 
+
+bin - user cmds
+sbin - system commands can be found
+
