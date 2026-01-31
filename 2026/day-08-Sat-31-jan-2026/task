@@ -1,2 +1,18 @@
 cretae 2 vms
 connect 1 vm to another( gen ssh key. KEEP private KEY on server AND PUSH PUBLIC PUB KEY ON REMOTE( 2ND ) VM AND THEN CONNECT
+
+
+package installer (apt)
+install nginx, container
+
+check nginx status
+see process status, start, stop
+>systemcdl status nginx
+
+see system logs 
+journalct nginx
+
+Pull logs  
+
+Journalctl  
+journalctl -u nginx 
