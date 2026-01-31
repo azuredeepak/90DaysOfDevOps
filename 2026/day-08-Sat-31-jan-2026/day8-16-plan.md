@@ -32,3 +32,5 @@ This removes the old host key.
 Step 2: SSH again
 PowerShellssh -i "C:\Users\v-deepkumar\OneDrive - Microsoft\Documents\terraform\linuxrsakeypai" adminuser@20.106.244.73Show more lines
 You will get a new prompt to trust the new host key → type yes.
+
+
