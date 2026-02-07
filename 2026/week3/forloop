@@ -1,9 +1,15 @@
-#for loop
+
+
 #testing for loop
 
+var_init="myvar"
 
 for((i=1; i<5;i++))
 do
 echo "your name $i"
-read -p "$name"
+read -p  "enter your name $var_init"
+echo "tessting variable print  $var_init"
+echo "testing variabkle initiazlion $var_init" #this will print the variable  value, variable to be called inside double quotes with dollar sign liek this
 done
+
+
