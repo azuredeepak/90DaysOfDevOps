@@ -1,0 +1,29 @@
+
+
+#! /bin/bash 
+-> Create an script tp check if a file exist 
+IF condition -> is used to check whether this or that 
+
+if -> then -> else 
+
+a=10 
+
+b=20 
+
+if [ $a –gt $b}; then 
+
+echo “Sa is bigger” 
+
+else  
+
+echo “$b is bigger” 
+
+ 
+
+if [ -f  “/etc/passwd”]; then 
+
+echo “file exisits” 
+
+else 
+
+echo “file do not exist” 
