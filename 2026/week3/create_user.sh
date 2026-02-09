@@ -4,6 +4,9 @@
 - check if the user already exists or not
 — create the user
 usage
+
+create_user() 
+{
 read -p " enter the username" username
 read -p "enter the password" password
 if id "$username" &>/dev/null; # here and greator basically redirects the output to devnull and return true or false.
@@ -13,6 +16,10 @@ exit 1
 else
 echo "The user $username does not exist and will be created. "
 fi
-
 sudo useradd -m $username -p $password
 echo "user $username added successfully"
+}
+
+#create_user  fucntion call disabled as of now to call it from another script. remove this hash if neede touser here
+
+
